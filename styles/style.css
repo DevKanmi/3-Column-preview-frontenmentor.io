@@ -1,0 +1,127 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 95%);
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;  
+    
+}
+
+
+
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 0px;
+       
+    
+  
+    
+    
+}
+
+.child{
+    display: flex;
+    height: 450px;
+    width: 280px;  
+  
+}
+
+#child1{
+    background-color: hsl(31, 77%, 52%);
+    justify-content: center;
+    border-radius: 12px 0px 0px 12px;
+    overflow: hidden; 
+
+}
+
+#child2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#child3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 12px 12px 0px;
+    overflow: hidden; 
+}
+
+.h2style {
+    margin-left: 15px; 
+    margin-top: 20px; 
+    font-size: 40px; 
+    color: hsl(0, 0%, 95%); 
+    font-family: "Big Shoulders Display", sans-serif;
+
+
+}
+
+.imgstyle{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.imgstyle2{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.pstyle{
+    margin-left: 15px;
+    margin-top: -25px; 
+    align-items: center; 
+    justify-content: center; 
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    line-height: 22px;
+}
+
+.bstyle:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75);
+    border-color: white;
+    cursor: pointer;
+}
+
+.bstyle{ 
+    border-radius: 23px; 
+    overflow: hidden; 
+    padding-bottom: 12px; 
+    padding-top: 12px; 
+    margin-left: 10px; 
+    margin-top: 80px; 
+    padding-right: 30px; 
+    padding-left: 30px; 
+    background-color:hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%);
+}
+
+.bstyle2{ 
+    border-radius: 23px; 
+    overflow: hidden; 
+    padding-bottom: 12px; 
+    padding-top: 12px; 
+    margin-left: 50px; 
+    margin-top: 75px; 
+    padding-right: 30px; 
+    padding-left: 30px; 
+    background-color:hsl(0, 0%, 95%);
+}
